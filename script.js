@@ -26,7 +26,7 @@ function dropBall() {
   if (ballY > 480) {
     // Check if basket caught it
     if (ballX > basketX && ballX < basketX + 60) {
-      score++;
+          score++;
       scoreText.innerText = score;
     } else {
       missed++;
